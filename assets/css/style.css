@@ -1,0 +1,109 @@
+
+html {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background-image: url("../images/3shapes.jpg");
+ 
+      }
+        
+*, *:before, *:after {
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        box-sizing: inherit;
+
+ }
+
+
+#container{
+    display:inline;
+    align-content: center;
+    margin:auto;
+    text-align:center;
+}
+
+header {
+    margin:auto;
+    padding: 2em;
+    background-color:#666666;
+    color: #cccccc;
+    text-align: center;
+    width: 80%;
+
+}
+
+body {
+    font-family: 'Rubik Black', sans-serif;
+}
+
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 3.5em;
+}
+
+p {
+    font-family: 'Rubik Light', sans-serif;
+    font-size: .9em;  
+    color:#f9f9f9;
+    background-color:#666666;
+    padding: 1em;
+
+}
+
+
+#add-shape,
+.shapeButton{
+    color: #20bf6b !important;
+    text-transform: uppercase;
+    background: #6633cc;
+    padding: 20px;
+    border: 4px solid #20bf6b !important;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 900;  
+
+
+}
+
+.shapeButton:hover {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s; 
+    }
+
+#add-shape:hover  {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+}
+.shapeButton:active {
+    background-color: #cc99cc;
+
+}
+
+
+button,
+div,
+form,
+input {
+  margin: 20px;
+}
+
+#imageRow2  {
+    float:left;
+    display:flex;
+    background-color:#666666
+
+}
+#imageRow1, 
+#buttonPanel  {
+    background-color:#666666
+
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
